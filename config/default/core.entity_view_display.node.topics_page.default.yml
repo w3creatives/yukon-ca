@@ -37,7 +37,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 8
+    weight: 7
     region: content
   field_image:
     type: entity_reference_label
@@ -61,7 +61,7 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 7
+    weight: 6
     region: content
   field_top_task:
     type: link
@@ -73,7 +73,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 6
+    weight: 5
     region: content
   field_whats_new_header:
     type: string
@@ -98,6 +98,7 @@ content:
     region: content
 hidden:
   addtoany: true
+  field_yukon_editorial_team: true
   field_page_description: true
   langcode: true
   search_api_excerpt: true
